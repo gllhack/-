@@ -529,7 +529,7 @@ void LexiscalAnalyzer()
 		code = reserve_operator(strToken);
 		printf("(%d , %s)\n", code, strToken);
 		break;
-	case ':':
+	case ';':
 		concat();
 		code = reserve_operator(strToken);
 		printf("(%d , %s)\n", code, strToken);
